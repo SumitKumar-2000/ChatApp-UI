@@ -1,0 +1,27 @@
+.tabOptions__container{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.tabButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tabButton:hover{
+    color: white;
+    background-color: #4462ff;
+}
